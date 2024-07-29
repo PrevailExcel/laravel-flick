@@ -1,0 +1,62 @@
+{
+  "name": "prevailexcel/laravel-flick",
+  "description": "A Laravel SDK for Flick",
+  "keywords": [
+    "Flick",
+    "Flick Payment",
+    "Fiat Payments",
+    "paystack alternative",
+    "Flickpay payments",
+    "fiat payments",
+    "payment gateway",
+    "online payments",
+    "financial transactions",
+    "Laravel payments",
+    "payment processing",
+    "digital payments",
+    "financial technology",
+    "crypto integration",
+    "payment solutions",
+    "php",
+    "github",
+    "laravel",
+    "Open Source",
+    "payments",
+    "laravel 6",
+    "laravel 7",
+    "laravel 8",
+    "laravel 9",
+    "laravel 10"
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "autoload": {
+    "files": [
+      "utils/helpers/flick.php"
+    ],
+    "psr-4": {
+      "PrevailExcel\\Flick\\": "src/"
+    }
+  },
+  "authors": [
+    {
+        "name": "Chimeremeze Prevail Ejimadu",
+        "email": "prevailexcellent@gmail.com",
+        "homepage": "http://github.com/PrevailExcel",
+        "role": "Developer"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.0.1"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "PrevailExcel\\Flick\\FlickServiceProvider"
+      ],
+      "aliases": {
+        "Flick": "PrevailExcel\\Flick\\Facades\\Flick"
+      }
+    }
+  }
+}
